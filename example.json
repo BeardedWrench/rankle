@@ -1,0 +1,101 @@
+{
+  "name": "What weed strain are you?",
+  "questions": [
+    {
+      "id": "1",
+      "question": "What is your favorite color?",
+      "answers": [
+        {
+          "id": "1",
+          "answer": "Red",
+          "weights": [
+            {
+              "resultID": "1",
+              "weight": 0.9
+            },
+            {
+              "resultID": "2",
+              "weight": 0.4
+            },
+            {
+              "resultID": "3",
+              "weight": 0.1
+            }
+          ]
+        },
+        {
+          "id": "2",
+          "answer": "Blue",
+          "weights": [
+            {
+              "resultID": "1",
+              "weight": 0.2
+            },
+            {
+              "resultID": "2",
+              "weight": 1
+            },
+            {
+              "resultID": "3",
+              "weight": 0.5
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "question": "What is your favorite scary movie?",
+      "answers": [
+        {
+          "answer": "Scream",
+          "weights": [
+            {
+              "resultID": "1",
+              "weight": 1
+            },
+            {
+              "resultID": "2",
+              "weight": 0.3
+            },
+            {
+              "resultID": "3",
+              "weight": 0.7
+            }
+          ]
+        },
+        {
+          "answer": "Chucky",
+          "weights": [
+            {
+              "resultID": "1",
+              "weight": 0.8
+            },
+            {
+              "resultID": "2",
+              "weight": 0.1
+            },
+            {
+              "resultID": "3",
+              "weight": 0.3
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "results": [
+    {
+      "id": "1",
+      "result": "Witch Doctor OG"
+    },
+    {
+      "id": "2",
+      "result": "Northern Lights"
+    },
+    {
+      "id": "3",
+      "result": "NY Sour Diesel"
+    }
+  ]
+}
